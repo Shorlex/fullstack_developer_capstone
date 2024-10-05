@@ -14,8 +14,11 @@ import logging
 import json
 from django.views.decorators.csrf import csrf_exempt
 from .populate import initiate
-from .restapis import (get_request, analyze_review_sentiments,
-    searchcars_request)
+from .restapis import (
+    get_request,
+    analyze_review_sentiments,
+    searchcars_request
+)
 
 
 # Get an instance of a logger
